@@ -1,0 +1,12 @@
+[
+  { "mode": "UPI",  "txn_id": "UPI001", "rrn": "RRN100001", "payer_vpa": "alice@okhdfc", "payee_vpa": "merchant@okaxis", "amount": 1500.00, "status": "SUCCESS", "txn_date": "2026-05-31" },
+  { "mode": "UPI",  "txn_id": "UPI002", "rrn": "RRN100002", "payer_vpa": "bob@oksbi",    "payee_vpa": "merchant@okaxis", "amount": 2499.00, "status": "SUCCESS", "txn_date": "2026-05-31" },
+  { "mode": "UPI",  "txn_id": "UPI003", "rrn": "RRN100003", "payer_vpa": "carol@okicici", "payee_vpa": "merchant@okaxis", "amount": 999.00,  "status": "FAILED",  "txn_date": "2026-05-31" },
+  { "mode": "UPI",  "txn_id": "UPI004", "rrn": "RRN100004", "payer_vpa": "dan@okhdfc",   "payee_vpa": "merchant@okaxis", "amount": 750.00,  "status": "SUCCESS", "txn_date": "2026-05-31" },
+  { "mode": "UPI",  "txn_id": "UPI005", "rrn": "RRN100005", "payer_vpa": "success@upi",  "payee_vpa": "merchant@okaxis", "amount": 3200.00, "status": "SUCCESS", "txn_date": "2026-05-31" },
+  { "mode": "UPI",  "txn_id": "UPI006", "rrn": "RRN100006", "payer_vpa": "eve@okaxis",   "payee_vpa": "merchant@okaxis", "amount": 1200.00, "status": "SUCCESS", "txn_date": "2026-05-31" },
+  { "mode": "NACH", "umrn": "NACHUMRN0001", "txn_ref": "RRN200001", "amount": 5000.00,  "status": "SUCCESS",  "settlement_date": "2026-05-31" },
+  { "mode": "NACH", "umrn": "NACHUMRN0002", "txn_ref": "RRN200002", "amount": 12000.00, "status": "SUCCESS",  "settlement_date": "2026-05-31" },
+  { "mode": "NACH", "umrn": "NACHUMRN0003", "txn_ref": "RRN200003", "amount": 8000.00,  "status": "RETURNED", "settlement_date": "2026-05-31" },
+  { "mode": "NACH", "umrn": "NACHUMRN0004", "txn_ref": "RRN200004", "amount": 4500.00,  "status": "SUCCESS",  "settlement_date": "2026-05-31" }
+]

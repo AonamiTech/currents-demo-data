@@ -1,15 +1,15 @@
 # 01 — Multi-Source Payment Reconciliation
 
-Dummy feeds for the demo workflow. Four payment-mode reports are reconciled
+Three downloads (1 sheet + 2 JSON). The two JSON feed files are reconciled
 against the core-banking ledger (`cbs_ledger.csv`):
 
-- `upi.csv`  — UPI settlement report (CSV)   → Read Sheet File
-- `nach.csv` — NACH settlement report (CSV)  → Read Sheet File
-- `neft.json` — NEFT feed (JSON)             → Read JSON File
-- `rtgs.json` — RTGS feed (JSON)             → Read JSON File
+- `cbs_ledger.csv`      — core-banking ledger (CSV)        → Read Sheet File
+- `feeds_upi_nach.json` — UPI + NACH settlement feed (JSON) → Read JSON File
+- `feeds_neft_rtgs.json`— NEFT + RTGS settlement feed (JSON)→ Read JSON File
 
 Match key: feed `rrn`/`txn_ref`/`utr` == ledger `ref_no`, with equal `amount`
-and a successful feed `status`.
+and a successful feed `status`. Each row carries a `mode` for readability; the
+workflow's Code node detects the source from the key columns regardless.
 
 Planted exceptions (6):
 - RRN100003 (UPI)  — status FAILED

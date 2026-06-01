@@ -1,7 +1,0 @@
-txn_id,rrn,payer_vpa,payee_vpa,amount,status,txn_date
-UPI001,RRN100001,alice@okhdfc,merchant@okaxis,1500.00,SUCCESS,2026-05-31
-UPI002,RRN100002,bob@oksbi,merchant@okaxis,2499.00,SUCCESS,2026-05-31
-UPI003,RRN100003,carol@okicici,merchant@okaxis,999.00,FAILED,2026-05-31
-UPI004,RRN100004,dan@okhdfc,merchant@okaxis,750.00,SUCCESS,2026-05-31
-UPI005,RRN100005,success@upi,merchant@okaxis,3200.00,SUCCESS,2026-05-31
-UPI006,RRN100006,eve@okaxis,merchant@okaxis,1200.00,SUCCESS,2026-05-31

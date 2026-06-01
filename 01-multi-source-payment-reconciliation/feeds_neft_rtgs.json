@@ -1,0 +1,9 @@
+[
+  { "mode": "NEFT", "utr": "UTR300001",  "ifsc": "HDFC0001234", "amount": 25000,  "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "NEFT", "utr": "UTR300002",  "ifsc": "ICIC0005678", "amount": 18000,  "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "NEFT", "utr": "UTR300003",  "ifsc": "SBIN0009012", "amount": 9500,   "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "NEFT", "utr": "UTR300004",  "ifsc": "UTIB0003456", "amount": 30000,  "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "RTGS", "utr": "RTGS400001", "ifsc": "HDFC0009999", "amount": 250000, "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "RTGS", "utr": "RTGS400002", "ifsc": "ICIC0008888", "amount": 500000, "status": "SUCCESS", "value_date": "2026-05-31" },
+  { "mode": "RTGS", "utr": "RTGS400003", "ifsc": "SBIN0007777", "amount": 175000, "status": "PENDING", "value_date": "2026-05-31" }
+]

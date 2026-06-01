@@ -1,5 +1,0 @@
-[
-  { "utr": "RTGS400001", "ifsc": "HDFC0009999", "amount": 250000, "status": "SUCCESS", "value_date": "2026-05-31" },
-  { "utr": "RTGS400002", "ifsc": "ICIC0008888", "amount": 500000, "status": "SUCCESS", "value_date": "2026-05-31" },
-  { "utr": "RTGS400003", "ifsc": "SBIN0007777", "amount": 175000, "status": "PENDING", "value_date": "2026-05-31" }
-]
