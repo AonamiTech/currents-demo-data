@@ -1,0 +1,8 @@
+gl_code,gl_name,category,balance,period
+DEP001,Savings Deposits,deposits,400000,2026-05
+DEP002,Current Deposits,deposits,200000,2026-05
+DEP003,Term Deposits,deposits,400000,2026-05
+ADV001,Term Loans,advances,500000,2026-05
+ADV002,Working Capital,advances,350000,2026-05
+CSH001,Cash Reserve with RBI,cash,35000,2026-05
+INV001,Govt Securities (SLR),investments,200000,2026-05
